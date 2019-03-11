@@ -1,0 +1,11 @@
+{
+    "name": "fish",
+    "type": "project",
+    "description": "The fish",
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

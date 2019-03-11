@@ -6,7 +6,13 @@
  * Time: 10:50
  */
 
-class PredatoryFish
+namespace App;
+//use App\Fish;
+class PredatoryFish extends Fish
 {
 
+    public function eat($fish)
+    {
+        $this->weight = $fish->weight;
+    }
 }
